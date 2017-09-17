@@ -1,0 +1,36 @@
+﻿#subbody{
+    background-color: rgba(0,51,89, 0.71);
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px 60px 25px 60px;
+    border: 1px solid #eee;
+    color:white;
+    margin:20px;
+    position:relative;
+}
+
+#captainBox{
+    text-align: center;
+    padding: 20px;
+    height: inherit;
+    width: inherit;
+    color: white;
+    background-image: url(/Images/bluecentergradient.jpg);
+}
+#memberBox{
+    /*Currently same as captainBox*/
+    text-align: center;
+    padding: 20px;
+    height: inherit;
+    width: inherit;
+    color: white;
+    background-image: url(/Images/bluecentergradient.jpg);
+}
+#navblock{
+    border-left: double;
+    background-image: url(Images/bluecentergradient.jpg);
+    width: 100%;
+    position: relative;
+    background: #003359;
+    padding: 10px 0px 0px 0px;
+}

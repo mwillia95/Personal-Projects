@@ -1,0 +1,71 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Web Development";
+}
+<link href="~/CSS/Index.css" rel="stylesheet" />
+<div class="row" id="partialnav">
+    <div class="col-md-12" id="navblock">
+        <ul class="nav nav-tabs">
+            <!--add appropriate links to your division-->
+            <li><a href="~/WebDev/Index">Home</a></li>
+            <li><a href="~/WebDev/Resources">Resources</a></li>
+            <li><a href="~/WebDev/Event">Events</a></li>
+            <li><a href="~/WebDev/Agenda">Agenda</a></li>
+        </ul>
+    </div>
+</div>
+<div class="row">
+    <div id="subbody"> <!--"col-md-12" class caused alignment issues, see no use for it in this section-->
+        <h3>Mission Statement</h3>
+        <p>The web development division of Augusta University's ACM club strives to encourage and educate students that have an interest in web programming and development.
+        We hope to provide valuable hands on experience and opportunities that will advance technical and personal skills. Our main project is constructing, maintaining, and improving the ACM club's website. 
+        </p> <!--Add relevant data about the divison-->
+    </div>
+</div>
+<div class="row container">
+    <h2>Meet the captains!</h2>
+    <div class="col-md-3" id="teamCaptain">
+        <div style="text-align:center">
+            <p id="captainBox">
+                <img src="" alt="Shelby Wilson" height="200" width="150"/><br> <!--TODO: Add a link to an image of Shelby-->
+                Captain of Web Development Division<br>Shelby Wilson
+            </p>
+        </div>
+    </div>
+</div>
+<!--TODO: Either manually enter member names, or consider retrieving info from database (when database is actually implemented)-->
+<div class="row container">
+    <h2>Team Members</h2>
+    <div class="col-md-3" id="teamMembers">
+        <div style="text-align:center">
+            <p id="memberBox">
+                Member 1
+                <br>Member 2
+                <br>Member 3
+                <br>Member 4
+            </p>
+        </div>
+    </div>
+    <div class="col-md-3" id="teamMembers">
+        <div style="text-align:center">
+            <p id="memberBox">
+                Member 1
+                <br>Member 2
+                <br>Member 3
+                <br>Member 4
+            </p>
+        </div>
+    </div>
+    <div class="col-md-3" id="teamMembers">
+        <div style="text-align:center">
+            <p id="memberBox">
+                Member 1
+                <br>Member 2
+                <br>Member 3
+                <br>Member 4
+            </p>
+        </div>
+    </div>
+</div>
+
+    
