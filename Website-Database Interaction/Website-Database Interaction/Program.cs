@@ -10,8 +10,8 @@ namespace Website_Database_Interaction
         static void Main(string[] args)
         {
 
-            string connectionStr = @"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = C:\Users\student\Source\Repos\personal - projects\ACM - Website\Source\ACM - Website\App_Data\localDB.mdf; Integrated Security = True";
-            while (true)
+            string connectionStr = @"Data Source = (LocalDB)\MSSQLLocalDB; Integrated Security = True; Connect Timeout = 30";
+                while (true)
             {
                 SqlConnection connection = new SqlConnection(connectionStr);
                 SqlCommand command;
@@ -29,7 +29,9 @@ namespace Website_Database_Interaction
                     Console.WriteLine("Reader executed");
                     while (reader.Read())
                     {
-                        Console.WriteLine(reader.GetValue(0) + "-" + reader.GetValue(1) + "-" + reader.GetValue(2));
+                        object[] items = new object[reader.FieldCount];
+                        reader.GetValues(items);
+                        Console.WriteLine(String.Join("-", items));
                     }
                     Console.WriteLine("Reader finished");
                     reader.Close();
@@ -44,6 +46,7 @@ namespace Website_Database_Interaction
                 }
                 Console.WriteLine("Press any key to continue...");
                 Console.ReadKey();
+                Console.Clear();
             }
         }
 
