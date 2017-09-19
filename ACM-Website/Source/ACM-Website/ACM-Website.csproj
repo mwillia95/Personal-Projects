@@ -282,7 +282,10 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\jquery-3.2.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.2.1.min.map" />
-    <Content Include="Views\WebDev\_WebDevLayout.cshtml" />
+    <Content Include="Views\WebDev\_ViewStart.cshtml" />
+    <Content Include="Views\Cyber\_ViewStart.cshtml" />
+    <Content Include="Views\GameDev\_ViewStart.cshtml" />
+    <Content Include="Views\Programming\_ViewStart.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
