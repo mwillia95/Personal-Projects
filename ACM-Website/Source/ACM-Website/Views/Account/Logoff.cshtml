@@ -1,0 +1,20 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+    @using (Html.BeginForm("LogOff, AccountController"))
+    {
+        <input class="button" id="submit" value="Submit" />
+    }
+    </div>
+</body>
+</html>

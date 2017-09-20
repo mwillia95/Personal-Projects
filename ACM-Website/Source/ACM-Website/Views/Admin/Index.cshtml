@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+   
+}
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+    <p>
+        Hello? @HttpContext.Current.User.Identity.Name
+        <br />
+        I'm gonna sign you out somehow...
+        <br/>This is your username now?
+        @HttpContext.Current.User.Identity.Name
+    </p>
+    </div>
+</body>
+</html>

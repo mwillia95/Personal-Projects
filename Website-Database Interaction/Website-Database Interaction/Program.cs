@@ -10,8 +10,8 @@ namespace Website_Database_Interaction
         static void Main(string[] args)
         {
 
-            string connectionStr = @"Data Source = (LocalDB)\MSSQLLocalDB; Integrated Security = True; Connect Timeout = 30";
-                while (true)
+            string connectionStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Mitchell\Source\Repos\personal-projects\ACM-Website\Source\ACM-Website\App_Data\aspnet-ACM-Website-20170302012245.mdf;Integrated Security=True;Connect Timeout=30";
+                while (true)   
             {
                 SqlConnection connection = new SqlConnection(connectionStr);
                 SqlCommand command;
@@ -31,8 +31,10 @@ namespace Website_Database_Interaction
                     {
                         object[] items = new object[reader.FieldCount];
                         reader.GetValues(items);
-                        Console.WriteLine(String.Join("-", items));
+                        Console.WriteLine(String.Join("\n", items));
+                        Console.WriteLine();
                     }
+
                     Console.WriteLine("Reader finished");
                     reader.Close();
                     command.Dispose();

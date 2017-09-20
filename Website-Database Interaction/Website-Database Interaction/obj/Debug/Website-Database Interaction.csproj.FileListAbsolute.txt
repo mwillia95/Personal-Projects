@@ -10,3 +10,9 @@ C:\Users\mwilliams10\Source\Repos\personal-projects\Website-Database Interaction
 C:\Users\mwilliams10\Source\Repos\personal-projects\Website-Database Interaction\Website-Database Interaction\bin\Debug\Website-Database Interaction.exe
 C:\Users\mwilliams10\Source\Repos\personal-projects\Website-Database Interaction\Website-Database Interaction\bin\Debug\Website-Database Interaction.pdb
 C:\Users\mwilliams10\Source\Repos\personal-projects\Website-Database Interaction\Website-Database Interaction\obj\Debug\Website-Database Interaction.csprojResolveAssemblyReference.cache
+C:\Users\Mitchell\Source\Repos\personal-projects\Website-Database Interaction\Website-Database Interaction\bin\Debug\Website-Database Interaction.exe.config
+C:\Users\Mitchell\Source\Repos\personal-projects\Website-Database Interaction\Website-Database Interaction\obj\Debug\Website-Database Interaction.exe
+C:\Users\Mitchell\Source\Repos\personal-projects\Website-Database Interaction\Website-Database Interaction\obj\Debug\Website-Database Interaction.pdb
+C:\Users\Mitchell\Source\Repos\personal-projects\Website-Database Interaction\Website-Database Interaction\bin\Debug\Website-Database Interaction.exe
+C:\Users\Mitchell\Source\Repos\personal-projects\Website-Database Interaction\Website-Database Interaction\bin\Debug\Website-Database Interaction.pdb
+C:\Users\Mitchell\Source\Repos\personal-projects\Website-Database Interaction\Website-Database Interaction\obj\Debug\Website-Database Interaction.csprojResolveAssemblyReference.cache
