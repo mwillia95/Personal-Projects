@@ -15,16 +15,33 @@ namespace ACM_Website.Controllers
 {
     public class AdminController : Controller
     {
+        public IAuthenticationManager AuthenticationManager
+        {
+            get
+            {
+                return HttpContext.GetOwinContext().Authentication;
+            }
+        }
+
+        public bool IsInRole(string role)
+        {
+            return AuthenticationManager.User.IsInRole(role);
+        }
+
+
         // GET: Admin
         public ActionResult Index()
         {
-            IAuthenticationManager AuthenticationManager = HttpContext.GetOwinContext().Authentication;
+            //test how to sign somebody out
             AuthenticationManager.SignOut();
             return View();
         }
         public ActionResult Admin()
         {
-            return View();
+            //testing how to redirect if user is not in a role
+            if (IsInRole("Admin")) 
+                return View();
+            return RedirectToAction("Index", "Home");
         }
     }
 }
