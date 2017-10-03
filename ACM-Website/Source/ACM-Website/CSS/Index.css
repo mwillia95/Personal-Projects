@@ -7,6 +7,7 @@
     color:white;
     margin:20px;
     position:relative;
+    margin-left: 40px;
 }
 
 #captainBox{
@@ -26,10 +27,12 @@
     color: white;
     border-radius: 10px;
     background-image: url(/Images/bluecentergradient.jpg);
+    list-style: none;
 }
 #subnav{
     width: 100%;
     position: relative;
     background: #003359;
     padding: 10px 0px 0px 0px;
+    border-bottom: none;
 }

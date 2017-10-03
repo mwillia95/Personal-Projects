@@ -39,10 +39,14 @@ textarea {
 }
 #navlogo{ /*Logo*/
     height:50px;
+    margin-top: -15px;
 }
 #infonav{/*Coloring this touches the extra nav links, (e.g. blog, events,etc), Andrew*/
     color:white;
     background-color:#002f55;
+}
+.nav-tabs{
+    border-bottom: none;
 }
 #infonav a {
     color: white;
