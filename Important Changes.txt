@@ -1,0 +1,5 @@
+VerifyControl Verify method was altered to return a bool
+
+Currently, all forms must have a reference to the controller that is acting over them
+To prevent this, all methods within the controllers must be static, and variables
+that need to be transfered between forms must be stored within the form (including the current account!)
